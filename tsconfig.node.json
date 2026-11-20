@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "allowImportingTsExtensions": false,
+    "lib": ["ES2022", "dom", "dom.iterable"]
+  },
+  "include": ["scripts", "src/core", "src/types"]
+}
